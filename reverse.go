@@ -12,6 +12,6 @@ func Reverse(input string) bool {
 }
 
 func main() {
-    fmt.Println(Reverse("tacocat"))
-    fmt.Println(Reverse("tacocats"))
+  fmt.Println(Reverse("tacocat"))
+  fmt.Println(Reverse("tacocats"))
 }

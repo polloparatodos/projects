@@ -8,7 +8,7 @@ func Reverse(input string) bool {
       return false
     }
   }
-    return true
+  return true
 }
 
 func main() {

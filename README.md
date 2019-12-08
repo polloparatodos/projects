@@ -2,6 +2,10 @@
 
 Random assortment of programming projects
 
+# goal
+
+continuous practice
+
 ### languages
 
 * Go

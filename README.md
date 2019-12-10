@@ -14,4 +14,4 @@ continuous practice
 
 ### notes
 
-languages section will be added over time
+languages section will be updated over time

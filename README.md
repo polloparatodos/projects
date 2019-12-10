@@ -9,7 +9,8 @@ continuous practice
 ### languages
 
 * Go
-* Python (next)
+* Python
+* Julia (next)
 
 ### notes
 

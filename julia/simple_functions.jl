@@ -1,14 +1,7 @@
 # function to calculate the volume of a sphere
-function sphere_vol_pi_word(r)
-    # julia allows Unicode names (in UTF-8 encoding)
-    # so either "pi" or the symbol π can be used
-    return 4/3*pi*r^3
-end
-
-function sphere_vol_pi_symbol(r)
-    # julia allows Unicode names (in UTF-8 encoding)
-    # so either "pi" or the symbol π can be used
-    return 4/3*π*r^3
+function volume_of_sphere(p, r)
+    # Since Julia allows 'pi' and 'π', we should allow the user to specify it as an arg
+    return 4/3*p*r^3
 end
 
 # functions can also be defined more succinctly
@@ -26,11 +19,12 @@ function quadratic2(a::Float64, b::Float64, c::Float64)
     r1, r2
 end
 
-vol_word = sphere_vol_pi_word(3)
-vol_symbol = sphere_vol_pi_symbol(3)
-using Printf
-@printf "volume using 'pi' keyword = %0.3f\n" vol_word
-@printf "volume using 'π' symbol = %0.3f\n" vol_symbol
+using Test
+@test volume_of_sphere(pi, 3) ≈ 113.09733552923254
+@test volume_of_sphere(π, 3) ≈ 113.09733552923254
+#using Printf
+#@printf "volume using 'pi' keyword = %0.3f\n" vol_word
+#@printf "volume using 'π' symbol = %0.3f\n" vol_symbol
 
 quad1, quad2 = quadratic2(2.0, -2.0, -12.0)
 println("result 1: ", quad1)

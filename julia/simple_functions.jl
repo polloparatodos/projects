@@ -20,11 +20,10 @@ function quadratic2(a::Float64, b::Float64, c::Float64)
 end
 
 using Test
-@test volume_of_sphere(pi, 3) ≈ 113.09733552923254
-@test volume_of_sphere(π, 3) ≈ 113.09733552923254
-#using Printf
-#@printf "volume using 'pi' keyword = %0.3f\n" vol_word
-#@printf "volume using 'π' symbol = %0.3f\n" vol_symbol
+@testset "volume_of_sphere tests" begin
+@test volume_of_sphere(pi, 3) == 113.09733552923254
+@test volume_of_sphere(π, 3) == 113.09733552923254
+end
 
 quad1, quad2 = quadratic2(2.0, -2.0, -12.0)
 println("result 1: ", quad1)

@@ -14,5 +14,3 @@ function quadratic2(a::Float64, b::Float64, c::Float64)
     # if the return keyword is omitted, the last term is returned
     r1, r2
 end
-
-quad1, quad2 = quadratic2(2.0, -2.0, -12.0)

@@ -8,7 +8,7 @@ continuous practice
 
 # languages
 
-## Ordered by % of commits
+### Ordered by % of commits
 
 * Julia
 * Go

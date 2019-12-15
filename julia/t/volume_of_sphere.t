@@ -23,4 +23,10 @@ using Test
 # Lower limit of approx match
 @test volume_of_sphere(π,  3) ≈ 113.097335
 @test volume_of_sphere(pi, 3) ≈ 113.097335
+
+# Radii can be zero
+@test volume_of_sphere(π,  0) == 0.0
+@test volume_of_sphere(pi, 0) == 0.0
+@test volume_of_sphere(π,  0) ≈ 0.0
+@test volume_of_sphere(pi, 0) ≈ 0.0
 end

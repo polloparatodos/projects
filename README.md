@@ -10,7 +10,7 @@ continuous practice
 
 * Go
 * Python
-* Julia (next)
+* Julia
 
 ### notes
 

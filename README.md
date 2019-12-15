@@ -6,12 +6,12 @@ Random assortment of programming projects
 
 continuous practice
 
-### languages
+# languages
 
 * Go
 * Python
 * Julia
 
-### notes
+# notes
 
 languages section will be updated over time

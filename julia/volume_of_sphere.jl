@@ -7,5 +7,5 @@ end
 using Test
 @testset "volume_of_sphere tests" begin
 @test volume_of_sphere(pi, 3) == 113.09733552923254
-@test volume_of_sphere(π, 3) == 113.09733552923254
+@test volume_of_sphere(π,  3) == 113.09733552923254
 end

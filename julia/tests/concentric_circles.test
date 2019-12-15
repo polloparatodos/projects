@@ -1,7 +1,10 @@
 using Test
 @testset "concentric_circles tests" begin include("../concentric_circles.jl")
 
-@test concentric_circles(2, 1) == 9.42478
-@test concentric_circles(4, 2) == 37.6991
+# Basic test
+@test concentric_circles(2, 1) == 9.42477796076938
+
+# Ensure Y cannot be greater than X
+@test concentric_circles(1, 2) == "X must be greater than Y"
 
 end

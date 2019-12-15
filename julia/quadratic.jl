@@ -14,9 +14,3 @@ function quadratic2(a::Float64, b::Float64, c::Float64)
 end
 
 quad1, quad2 = quadratic2(2.0, -2.0, -12.0)
-
-using Test
-@testset "quadratic tests" begin
-@test quad1 == 3.0
-@test quad2 == -2.0
-end

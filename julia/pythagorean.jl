@@ -1,6 +1,6 @@
 # function to calculate the hypotenuse
 function pythagorean(a, b)
-  return a^2+b^2
+  return sqrt(a^2+b^2)
 end
 
 println("Passing in a=2 and b=5. Result: ", pythagorean(2, 5))

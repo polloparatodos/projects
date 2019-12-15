@@ -1,7 +1,7 @@
 using Test
 @testset "pythagorean tests" begin include("../pythagorean.jl")
 
-@test pythagorean(1, 2) ≈ 5
-@test pythagorean(2, 4) ≈ 20
+@test pythagorean(1, 2) ≈ 2.24
+@test pythagorean(2, 4) ≈ 4.47
 
 end

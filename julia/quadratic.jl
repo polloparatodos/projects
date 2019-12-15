@@ -1,4 +1,4 @@
-# Note: This code comes from an example and I have no work to it.
+# Note: This code comes from an example and I have done no work to it.
 
 # functions can also be defined more succinctly
 quadratic(a, sqr_term, b) = (-b + sqr_term) / 2a

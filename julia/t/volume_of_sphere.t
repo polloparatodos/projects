@@ -1,8 +1,8 @@
 using Test
 @testset "volume_of_sphere tests" begin include("../volume_of_sphere.jl")
 # Perfect match:
-@test volume_of_sphere(pi, 3) == 113.09733552923254
 @test volume_of_sphere(π,  3) == 113.09733552923254
+@test volume_of_sphere(pi, 3) == 113.09733552923254
 
 # Approx match
 @test volume_of_sphere(π,  3) ≈ 113.0973355292325

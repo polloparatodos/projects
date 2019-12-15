@@ -8,9 +8,11 @@ continuous practice
 
 # languages
 
+## Ordered by % of commits
+
+* Julia
 * Go
 * Python
-* Julia
 
 # notes
 

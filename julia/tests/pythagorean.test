@@ -1,0 +1,8 @@
+using Test
+@testset "volume_of_sphere tests" begin include("../pythagorean.jl")
+
+# Perfect match:
+@test pythagorean(1, 2) == 2.24
+@test pythagorean(2, 4) == 4.47
+
+end

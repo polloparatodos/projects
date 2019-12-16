@@ -4,7 +4,7 @@ In this directory, you will find a collection of Julia examples and their respec
 
 ## Testing
 
-You can either run `julia tests/RunTests.jl` to run every defined tests, or you can
+You can either run `julia tests/RunTests.jl` to run every defined test, or you can
 run each test individually with `julia tests/test_name.test`
 
 ## Notes

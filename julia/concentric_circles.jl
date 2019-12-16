@@ -7,3 +7,6 @@ function concentric_circles(x, y)
     return π*x^2 - π*y^2
   end
 end
+
+println(concentric_circles(3, 5))
+println(concentric_circles(5, 3))

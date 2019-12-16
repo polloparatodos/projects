@@ -3,6 +3,7 @@
 
 function problem1(z)
   matches = Array[]
+  # 1:z is the range.
   for num = 1:z
     if num % 3 == 0 || num % 5 == 0
       push!(matches, [num])

@@ -16,8 +16,8 @@ using Test
 # Radii can be zero:
 @test volume_of_sphere(π,  0) == 0.0
 @test volume_of_sphere(pi, 0) == 0.0
-@test volume_of_sphere(π,  0) ≈ 0.0
-@test volume_of_sphere(pi, 0) ≈ 0.0
+@test volume_of_sphere(π,  0) ≈ 0
+@test volume_of_sphere(pi, 0) ≈ 0
 
 # Radii cannot be a negative number. Only zero and positive numbers:
 @test volume_of_sphere(π,  -1) == "Radii can only be zero or a positive number"

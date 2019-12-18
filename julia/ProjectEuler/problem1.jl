@@ -13,3 +13,5 @@ function problem1(z::Int)
 end
 
 println(problem1(999))
+println(problem1(99))
+println(problem1(9))

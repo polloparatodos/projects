@@ -7,10 +7,3 @@ function volume_of_sphere(p, r)
     return 4/3*p*r^3
   end
 end
-
-println(volume_of_sphere(π,  3))
-println(volume_of_sphere(pi, 3))
-println(volume_of_sphere(π,  0))
-println(volume_of_sphere(pi, 0))
-println(volume_of_sphere(π,  -1))
-println(volume_of_sphere(pi, -1))

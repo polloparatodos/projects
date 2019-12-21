@@ -1,0 +1,35 @@
+a2 – b2 = (a – b)(a + b)
+(a+b)2 = a2 + 2ab + b2
+a2 + b2 = (a – b)2 + 2ab
+(a – b)2 = a2 – 2ab + b2
+(a + b + c)2 = a2 + b2 + c2 + 2ab + 2ac + 2bc
+(a – b – c)2 = a2 + b2 + c2 – 2ab – 2ac + 2bc
+(a + b)3 = a3 + 3a2b + 3ab2 + b3 ; (a + b)3 = a3 + b3 + 3ab(a + b)
+(a – b)3 = a3 – 3a2b + 3ab2 – b3
+a3 – b3 = (a – b)(a2 + ab + b2)
+a3 + b3 = (a + b)(a2 – ab + b2)
+(a + b)3 = a3 + 3a2b + 3ab2 + b3
+(a – b)3 = a3 – 3a2b + 3ab2 – b3
+(a + b)4 = a4 + 4a3b + 6a2b2 + 4ab3 + b4)
+(a – b)4 = a4 – 4a3b + 6a2b2 – 4ab3 + b4)
+a4 – b4 = (a – b)(a + b)(a2 + b2)
+a5 – b5 = (a – b)(a4 + a3b + a2b2 + ab3 + b4)
+If n is a natural number an – bn = (a – b)(an-1 + an-2b+…+ bn-2a + bn-1)
+If n is even (n = 2k), an + bn = (a + b)(an-1 – an-2b +…+ bn-2a – bn-1)
+If n is odd (n = 2k + 1), an + bn = (a + b)(an-1 – an-2b +…- bn-2a + bn-1)
+(a + b + c + …)2 = a2 + b2 + c2 + … + 2(ab + ac + bc + ….)
+Laws of Exponents (am)(an) = am+n (ab)m = ambm (am)n = amn
+Fractional Exponents a0 = 1 aman=am−n am = 1a−m a−m = 1am
+Roots of Quadratic Equation
+For a quadratic equation ax2 + bx + c where a ≠ 0, the roots will be given by the equation as −b±b2−4ac√2a
+Δ = b2 − 4ac is called the discrimination
+For real and distinct roots, Δ > 0
+For real and coincident roots, Δ = 0
+For non-real roots, Δ < 0
+If α and β are the two roots of the equation ax2 + bx + c then, α + β = (-b / a) and α × β = (c / a).
+If the roots of a quadratic equation are α and β, the equation will be (x − α)(x − β) = 0
+Factorials
+n! = (1).(2).(3)…..(n − 1).n
+n! = n(n − 1)! = n(n − 1)(n − 2)! = ….
+0! = 1
+(a+b)n=an+nan−1b+n(n−1)2!an−2b2+n(n−1)(n−2)3!an−3b3+….+bn,where,n>1

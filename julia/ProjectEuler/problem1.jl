@@ -9,6 +9,7 @@ function problem1(z::Int)
       push!(matches, [num])
     end
   end
+  # Should reduce this down to be just an integer
   return sum(matches)
 end
 

@@ -1,4 +1,4 @@
-using Tests
+using Test
 
 @testset "area of a circle tests" begin include("../area_of_circle.jl")
 

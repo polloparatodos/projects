@@ -1,5 +1,5 @@
 lowerchars = Set('a':'z')
-function ispangram(input::AbstractString)
+function pangram(input::AbstractString)
     # this is more concise (plus fun with ∩ operator), but maybe inefficient for large strings?
     #lowerchars == Set(map(lowercase,input)) ∩ lowerchars
 

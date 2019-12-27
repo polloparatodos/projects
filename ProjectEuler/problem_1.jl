@@ -3,7 +3,7 @@ function problem1(z::Int)
   matches = Array{Int}[]
   for num = 1:z
     if num % 3 == 0 || num % 5 == 0
-      push!(matches, [num])
+      push!(matches, num)
     end
   end
   # Should reduce this down to be just an integer

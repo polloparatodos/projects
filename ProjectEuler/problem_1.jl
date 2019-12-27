@@ -6,6 +6,7 @@ function problem1(z::Int)
       push!(matches, [num])
     end
   end
+  println(sum(matches))
   return sum(matches)
 end
 

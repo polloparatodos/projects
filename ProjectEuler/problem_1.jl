@@ -3,7 +3,7 @@ function problem1(z::Int)
   matches = Int[]
   for num = 1:z
     if num % 3 == 0 || num % 5 == 0
-      push!(matches, [num])
+      push!(matches, num)
     end
   end
   return sum(matches)

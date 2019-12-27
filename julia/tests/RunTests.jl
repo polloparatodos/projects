@@ -1,9 +1,10 @@
 my_tests = [
              "area_of_circle.jl",
              "concentric_circles.jl",
+             "pangram.jl",
              "pythagorean.jl",
              "quadratic.jl",
-             "volume_of_sphere.jl"
+             "volume_of_sphere.jl",
            ]
 
 println("Running tests:")

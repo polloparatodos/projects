@@ -6,8 +6,7 @@ function problem1(z::Int)
       push!(matches, [num])
     end
   end
-  result = convert(Int, sum(matches))
-  return result
+  return sum(matches)
 end
 
 println(problem1(999))

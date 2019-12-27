@@ -1,5 +1,6 @@
-#Example taken from here:
-#https://exercism.io/tracks/julia/exercises/pangram/solutions/598a0248a787436c91e559728dac73b1
+# Example taken from here:
+# https://exercism.io/tracks/julia/exercises/pangram/solutions/598a0248a787436c91e559728dac73b1
+# The goal is to rewrite this with a different solution
 lowerchars = Set('a':'z')
 function pangram(input::AbstractString)
   iset = Set()

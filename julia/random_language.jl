@@ -3,4 +3,4 @@ function random_language()
   return rand(languages)
 end
 
-println(random_languages)
+println(random_language)

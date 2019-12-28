@@ -3,4 +3,6 @@ function random_language()
   return rand(languages)
 end
 
-println(random_language())
+for 1:9
+  println(random_language())
+end

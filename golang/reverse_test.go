@@ -3,15 +3,11 @@ package main
 import "testing"
 
 func TestReverse(t *testing.T) {
-  positive_test := Reverse("tacocat")
-
-  if positive_test == "palindrome" {
-    t.Errorf("The text '%s' is not a palindrome", positive_test)
+  if Reverse("tacocat") == "palindrome" {
+    t.Errorf("The text is not a palindrome")
   }
   
-  negative_test := Reverse("butter")
-
-  if negative_test == "not a palindrome" {
-    t.Errorf("The text '%s' is not a palindrome", negative_test)
+  if Reverse("butter") == "not a palindrome" {
+    t.Errorf("The text is not a palindrome")
   }
 }

@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func Reverse(input string) {
+func Reverse(input string) string {
   for i := 0; i < len(input); i++ {
     if input[i] != input[len(input)-i-1] {
       return "not a palindrome"

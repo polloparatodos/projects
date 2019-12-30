@@ -5,10 +5,10 @@ import "fmt"
 func Reverse(input string) bool {
   for i := 0; i < len(input); i++ {
     if input[i] != input[len(input)-i-1] {
-      return false
+      return 'not a palindrome'
     }
   }
-  return true
+  return 'palindrome'
 }
 
 func main() {

@@ -5,7 +5,7 @@ import "testing"
 func TestReverse(t *testing.T) {
   positive_test := Reverse("tacocat")
 
-  if positive_test != true {
+  if positive_test != "palindrome" {
     t.Errorf("The text '%t' is not a palindrome", positive_test)
   }
   

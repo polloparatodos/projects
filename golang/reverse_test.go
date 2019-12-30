@@ -11,7 +11,7 @@ func TestReverse(t *testing.T) {
   
   negative_test := Reverse("butter")
 
-  if positive_test != true {
-    t.Errorf("The text '%t' is not a palindrome", positive_test)
+  if negative_test != true {
+    t.Errorf("The text '%t' is not a palindrome", negative_test)
   }
 }

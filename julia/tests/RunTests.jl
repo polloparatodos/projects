@@ -5,6 +5,8 @@ my_tests = [
              "pythagorean.jl",
              "quadratic.jl",
              "volume_of_sphere.jl",
+             "swap_values.jl",
+             "random_language.jl",
            ]
 
 println("Running tests:")

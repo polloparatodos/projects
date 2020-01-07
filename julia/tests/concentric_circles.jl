@@ -1,5 +1,5 @@
 using Test
-@testset "concentric_circles tests" begin include("../concentric_circles.jl")
+@testset "concentric_circles tests" begin include("../scripts/concentric_circles.jl")
 
 # Basic test
 @test concentric_circles(2, 1) == 9.42477796076938
